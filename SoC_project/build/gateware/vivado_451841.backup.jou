@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov 11 09:18:02 2022
+# Process ID: 451841
+# Current directory: /home/ferney/Documentos/wp04_SoC_initial/SoC_project/build/gateware
+# Command line: vivado -mode batch -source top.tcl
+# Log file: /home/ferney/Documentos/wp04_SoC_initial/SoC_project/build/gateware/vivado.log
+# Journal file: /home/ferney/Documentos/wp04_SoC_initial/SoC_project/build/gateware/vivado.jou
+#-----------------------------------------------------------
+source top.tcl

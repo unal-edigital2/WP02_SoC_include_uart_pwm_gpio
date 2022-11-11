@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov 11 12:28:25 2022
+# Process ID: 496775
+# Current directory: /home/ferney/Documentos/WP07_SoC_initial_include_uart_i2c/SoC_project
+# Command line: vivado -mode tcl
+# Log file: /home/ferney/Documentos/WP07_SoC_initial_include_uart_i2c/SoC_project/vivado.log
+# Journal file: /home/ferney/Documentos/WP07_SoC_initial_include_uart_i2c/SoC_project/vivado.jou
+#-----------------------------------------------------------
+open_hw
+open_hw_manager
+connect_hw_server
+open_hw_target 
+set_property PROBES.FILE {} [lindex [get_hw_devices] {1}]
+set_property PROGRAM.FILE {./build/gateware/top.bit} [lindex [get_hw_devices] {1}]
+program_hw_devices [lindex [get_hw_devices] {1}]
+refresh_hw_device [lindex [get_hw_devices] {1}]
+quit
